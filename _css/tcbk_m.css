@@ -1,0 +1,1819 @@
+/* -------------------------------------Colors
+
+------------------------------BLUES
+
+BASE Blue
+rgba(108, 171, 217, 1.0);
+#6CABD9;
+
+SATURATED BASE BLUE
+rgba(83, 131, 166, 1.0);
+#5383A6;
+
+DARK Blue
+rgba(45, 71, 89, 1.0);
+#2D4759;
+
+GREY Blue
+rgba(71, 82, 89, 1.0);
+#475259;
+
+PALE GREY Blue
+rgba(178, 204, 223, 1.0);
+#B2CCDF;
+
+-------------------------------
+
+-------------------------------GREENS
+
+Dark Green
+rgba(11, 115, 55, 1.0);
+#0B7337;
+
+Green
+rgba(74, 158, 66, 1.0);
+#4A9E42;
+
+LIGHT PALE Green
+rgba(175, 235, 169, 1.0);
+#AFEBA9;
+
+DARK PALE Green
+rgba(130, 174, 125, 1.0);
+#82AE7D;
+
+NEON Green
+rgba(110, 235, 99, 1.0);
+#6EEB63;
+-------------------------------
+
+-------------------------------YELLAH
+
+BASE Yellah
+rgba(217, 222, 58, 1.0);
+#D9DE3A;
+
+PALE BASE Yellah
+rgba(225, 227, 127, 1.0);
+#E1E37F;
+-------------------------------ETC....
+Orange
+rgba(242, 170, 70, 1.0);
+#F2AA46;
+
+Dark Orange
+#B56723;
+
+Transport White -
+background-color: rgba(250, 250, 250, 0.7);
+
+yellow
+rgba(225, 229, 127, 1.0);
+
+light green
+rgba(156, 204, 101, 1.0);
+
+dark green
+rgba(54, 110, 67, 1.0);
+
+blue
+rgba(0, 159, 232, 1.0);
+
+dark blue
+rgba(0, 84, 122, 1.0);
+
+light blue
+rgba(124, 190, 182, 1.0);
+
+dark light blue
+rgba(40, 61, 59, 1.0);
+
+*/
+
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    }
+/* HTML5 display-role reset for older browsers */
+, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto";
+    line-height: 1.5em;
+    }
+ol, ul, li {
+    list-style: none;
+    }
+blockquote, q {
+    quotes: none;
+    }
+blockquote:before, blockquote:after,q:before, q:after {
+    content: '';
+    content: none;
+    }
+table {
+    border-collapse: collapse;
+    }
+.tableBreak {
+    display: inline-block;
+    line-height: 120%;
+}
+button {
+    outline: none;
+    box-shadow: none;
+}
+/*-------------------------------------------------------- Top Level Styles-------------------------------------------------------------- */
+h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(178, 204, 223, 1.0);
+    color: rgba(130, 174, 125, 1.0);;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+    }
+h2 {
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 400;
+    border-top: 1px solid #B56723;
+    border-bottom: 1px solid #B56723;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    color: #105B63;
+    letter-spacing: .2px;
+    }
+h3{
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: 400;
+    border-top: 1px solid rgba(44, 91, 128, 0.3);
+    border-bottom: 1px solid rgba(44, 91, 128, 0.3);
+    padding: 2% 6%;
+    margin-bottom: 2%;
+    color: #105B63;
+    }
+h4{
+
+    }
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4em;
+    }
+main {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 50px;
+    min-height: 500px;
+    }
+main p {
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.mainNoPad {
+    padding-top: 0;
+    }
+aside {
+  display: block;
+  float: left;
+}
+section{
+
+}
+article {
+
+}
+
+/* Links */
+
+a:link {
+    color:#2E6976;
+    }
+a:visited {
+    color:#2E6976;
+    }
+a:hover {
+
+    }
+a:active {
+
+    }
+.mainLinks {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-top: 1%;
+}
+.mainLinks a, .mainLinks a {
+    display: block;
+    position: relative;
+    height: 100%;
+    padding: 1%;
+    line-height: 30px;
+}
+.mainLinks a:hover, .mainLinks a:hover{
+    color: rgba(44, 91, 128, 0.7);
+    font-size: 102%;
+}
+
+/* Header Nav */
+.navWrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 2px solid #2D4759;
+    }
+.buttonWrapper {
+    position: relative;
+    display: block;
+    background: white;
+    height: 50px;
+    width: 100%;
+    z-index: 99;
+    }
+.open{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: white;
+    border: none;
+    box-shadow: none;
+}
+.open .equals {
+    color: #5383A6;
+    position: relative;
+    font-size: 4em;
+    top: -9px;
+}
+.open:hover {
+    color:#5383A6;
+    background-color: rgba(178, 204, 223, 0.2);
+}
+.open:hover .equals {
+    color:#F2AA46;
+}
+.menuWrapper {
+    display: none;
+    }
+.menuWrapperShow {
+    display: block;
+    }
+#menu {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 98;
+    border-top: 1px solid #5383A6;
+    border-bottom: 2px solid #5383A6;
+    }
+#menu ul {
+
+    }
+#menu ul li {
+    background: #FFF;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50px;
+    }
+#menu ul li a {
+    display: block;
+    position: relative;
+    color:#5383A6;
+    height: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(44, 91, 128, 0.1);
+    border-right: 1px solid rgba(44, 91, 128, 0.1);
+    }
+#menu ul li a:hover:after {
+    content: "";
+    position: absolute;
+    bottom: 10px; top: 10px; left: 80px; right: 80px;
+    border-bottom: 2px solid rgba(242, 170, 70, 0.4);
+}
+#menu ul li a:hover {
+    color:#475259;
+    font-size: 98%;
+}
+#menu ul li ul {
+    position:absolute;
+    width:inherit;
+    display: block;
+    background: #EEF2EF;
+    z-index: 97;
+    margin-right: -8px;
+    border-top: 2px solid rgba(45, 71, 89, 0.6);
+    border-bottom: 2px solid rgba(45, 71, 89, 0.6);
+    border-right: 1px solid rgba(108, 171, 217, 0.5);
+    border-left: 1px solid rgba(108, 171, 217, 0.5);
+    }
+#menu ul li ul li {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    }
+#menu ul li ul li:hover {
+
+    }
+#menu ul li ul li a {
+    position: relative;
+    line-height: 50px;
+    color:#5383A6;
+    border-bottom: 1px solid rgba(44, 91, 128, 0.1);
+    }
+#menu ul li ul.fallback {
+    display:none;
+    position:relative;
+    }
+#menu ul li:hover ul.fallback {
+    display:block;
+    }
+.menuLinkWrapper {
+
+}
+.headerSection {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 2%;
+}
+.headerSection p {
+    width: 85%;
+    line-height: 1.4em;
+    letter-spacing: .3px;
+}
+.underHeadingContainer {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.heroBlock {
+    position: relative;
+    float: left;
+    width: 90%;
+    padding: 2% 5%;
+}
+.mainBlockLeft {
+    position: relative;
+    float: left;
+    width: 96%;
+    padding: 2%;
+}
+.mainBlockRight {
+    float: left;
+    width: 96%;
+    padding: 2%;
+}
+.mainBlockLeft p, .mainBlockRight p {
+    width: 85%;
+
+}
+.shortBottomBlock {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 2% 0 0 0 ;
+}
+.shortBottomBlock p {
+    text-align: center;
+}
+.smGalleryModule {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+.interiorContainer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.imgContainer {
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 200px;
+    overflow: hidden;
+}
+.imgContainer img {
+    position:relative;
+    padding: 2%;
+    max-width: 96%;
+}
+
+/* Hero Image */
+.heroImage {
+    margin-top: 25px;
+    position: relative;
+    display: block;
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    align-content: center;
+    }
+.heroImage img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    overflow: hidden;
+    }
+
+/* Secondary Nav Module */
+#secondaryNavModule {
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    border-top: 1px solid rgba(45, 71, 89, 1.0);
+    background-color: rgba(1, 174, 239, 1.0);
+    }
+.secondaryNav {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.secondaryNavTable {
+    width: 100%;
+}
+.secondaryNavTable th {
+    white-space: nowrap;
+    width: 33%;
+    font-size: 1em;
+    text-decoration: underline;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.secondaryNavTable th a {
+    display: block;
+    position: relative;
+    color: white;
+    padding: 8px 0;
+    background-color: rgba(0, 84, 122, 1.0);
+}
+.secondaryNavTable th:hover a {
+    color: rgba(225, 229, 176, 1.0);
+    background-color: rgba(54, 125, 156, 1.0);
+}
+.secondaryNavTable td {
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+    padding: 1%;
+}
+.secondaryNavTable td a {
+    display: inline-block;
+    position: relative;
+    color: #794517;
+    font-size: .8em;
+    width: 100%;
+}
+.secondaryNavTable td:hover a {
+    color: #9D591E;
+}
+.secondaryNav td {
+    display: none;
+}
+
+/* FooterHours Module */
+#footerHoursTableModule {
+    display: block;
+    float: left;
+    width: 100%;
+    color: rgba(20, 10, 14, 1.0);
+    border-top: 1px solid rgba(45, 71, 89, 1.0);
+    background-color: rgba(255, 255, 255, 1.0);
+    }
+#footerHoursTable {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: default;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.footerHoursHeaderRow {
+    position: relative;
+    float: left;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: left;
+    width: 150%;
+    }
+.footerHoursHeaderRow:after {
+    content: "";
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #B56723;
+}
+.footerHoursTableRow td{
+    white-space: nowrap;
+    width: 40%;
+    padding: 0 3px;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 90%;
+    background-color: rgba(229, 244, 255, 0.5);
+}
+.footerHoursTableRow:hover {
+    color: #B56723;
+    background: rgba( 89, 166, 181, 0.2);
+}
+
+/* Footer Contact Module */
+#footerContactModule {
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1.0);
+    border-top: 1px solid rgba(45, 71, 89, 1.0);
+    border-bottom: 2px solid rgba(45, 71, 89, 1.0);
+    }
+.footerContactTable {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerContactTable caption {
+    font-weight: 300;
+    text-align: left;
+    font-size: 1.3em;
+    color: white;
+    letter-spacing: 0.8px;
+    padding: 8px 5px 8px 25px;
+    background-color: rgba(54, 110, 67, 1.0);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.footerContactTable td {
+    width: 25%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.footerContactTable td a {
+    color: rgba(20, 10, 14, 1.0);
+    padding: 0px 2px;
+    display: table-cell;
+    height: 7em;
+    vertical-align: middle;
+    width: 5000px;
+    letter-spacing: 0.4px;
+    font-size: .9em;
+    line-height: 1.2em;
+    white-space: nowrap;
+}
+#footerContactModule a:visted {
+
+}
+#footerContactModule td:hover a {
+    color: rgba(0, 84, 122, 1.0);
+    background-color: rgba(229, 244, 255, 1.0);
+}
+#footerContactModule td:hover a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px; top: 0px; left: 0px; right: 0px;
+    border-top: 3px solid rgba(225, 229, 127, 1.0);
+}
+#footerContactModule a:active {
+
+}
+
+/* CopyRight Module*/
+#copyRightModule {
+    display: block;
+    float: left;
+    width: 100%;
+    color: #295E69;
+    padding: 2% 0;
+    }
+.copyRight{
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 60%;
+    line-height: 1em;
+    }
+
+/* -------------------------------------------------Page Specific Modules */
+
+/* Pricing Module */
+#pricingInfoModule {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+#pricingTableModule {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0 2% 0;
+    white-space: nowrap;
+}
+#pricingTableModule table {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.7px;
+}
+#pricingTableModule table td {
+    line-height: 1.2;
+    padding: 3px 0;
+}
+
+/* Hours Table Module */
+#hoursTable {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+.hoursHeaderRow {
+
+}
+.hoursHeaderRow th {
+    display: block;
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 400;
+    border-top: 1px solid #B56723;
+    border-bottom: 1px solid #B56723;
+    padding: 7px 12px;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    color: #105B63;
+    letter-spacing: .2px;
+}
+#hoursTable tr {
+    display: block;
+}
+#hoursTable td {
+    display: block;
+    text-align: center;
+}
+#hoursTable .homeDay {
+    font-size: 110%;
+    font-weight: 400;
+    color: #2E6976;
+}
+#hoursTable .homeTime {
+    font-size: 90%;
+    font-weight: 300;
+}
+#hdIT {
+        margin-top: 5px;
+        margin-bottom: 15px;
+}
+
+/* GoogleMap Module */
+#googleMapContainer {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#googleMapContainer form {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-top: 1px solid rgba(44, 91, 128, 0.7);
+    border-bottom: 1px solid rgba(44, 91, 128, 0.7);
+    padding-bottom: 2%;
+}
+#googleMap {
+    height: 200px;
+    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 2%;
+    -o-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    border-radius: 2%;
+    }
+#mapHeader {
+    margin-top: 15px;
+    display: block;
+    float: left;
+    width: 90%;
+}
+#calculate-route #to, #calculate-route #from {
+    text-align: left;
+    padding-left: 2%;
+    border-bottom: 1px dotted #2E6976;
+    border-right: 1px dotted #2E6976;
+    border-top: none;
+    border-left: none;
+    margin-bottom: 2%;
+}
+#calculate-route label {
+    display: block;
+    width: 100%;
+    padding: 1% 0;
+}
+#calculate-route .hidden {
+    display: none;
+    width: 80%;
+    font-weight: 300;
+}
+#calculate-route .formText {
+    font-size: 50%;
+}
+
+/* -------------------------------------------------Home Page */
+/* Home Links Module */
+.greetingLinks {
+    position: relative;
+    display: block;
+    width: 100%;
+    }
+.greetingLinksInner {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homeLink {
+    position: relative;
+    display: block;
+    float: left;
+    width: 29%;
+    margin: 0 1%;
+    padding: 1%;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.homeLinkImage1 {
+    display: table;
+    text-align: center;
+    height: 6em;
+    width: 100%;
+    background-image: url("../_thumbs/TCK_09.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    opacity: 1.0;
+}
+.homeLinkImage2 {
+    display: table;
+    text-align: center;
+    height: 6em;
+    width: 100%;
+    background-image: url("../_thumbs/TCK_12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    opacity: 1.0;
+}
+.homeLinkImage3 {
+    display: table;
+    text-align: center;
+    height: 6em;
+    width: 100%;
+    background-image: url("../_thumbs/TCK_19.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    opacity: 1.0;
+}
+.homeLinkImage1 a, .homeLinkImage2 a, .homeLinkImage3 a  {
+    display: table-cell;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.3px;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1em;
+    vertical-align: middle;
+    height: 100%;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+}
+.homeLink a:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(108, 171, 217, 1.0);
+}
+.homeLinkImage a:hover {
+    border: 8px solid rgba(110, 235, 99, 0.8);
+}
+
+/* -------------------------------------------------Plan Your Stay */
+/* Don't Forget to Bring Module */
+#dontForgetModule {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+#dontForgetModule ul {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dontForgetModule li {
+    list-style: disc;
+    font-weight: 400;
+    line-height: 1.4em;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+/* Keep at Home Module */
+#leaveHomeModule {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+#leaveHomeModule ul {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#leaveHomeModule li {
+    font-weight: 400;
+    text-align: left;
+    padding-left: 25px;
+    line-height: 1.4em;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* Policy Module */
+.policyModule {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
+/* Faqs Module */
+
+.faqsModule {
+    display: block;
+    float: right;
+}
+#faqsImg {
+    float: left;
+}
+.faqsModule strong {
+    font-size: 1.2em;
+    font-weight: 300;
+    display: block;
+    padding-left: 5px;
+    color: rgba(71, 82, 89, 1.0);
+    margin: 20px 0 0 0;
+    letter-spacing: 0.2px;
+}
+.faqsModule p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.3em;
+    letter-spacing: .2px;
+}
+.faqsModule p:before {
+    content:"- ";
+    color: rgba(74, 158, 66, 1.0);
+}
+.faqsModule strong:after {
+    content: "";
+    display: block;
+    position: relative;
+    border-bottom: 1px solid rgba(83, 131, 166, 1.0);
+    margin-top: 3px;
+}
+
+/* Small Gallery Module */
+#smGalWrap {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.smGalContainer {
+    display: inline-block;
+    float: left;
+    width: 29%;
+    padding: 2%;
+    }
+.smGalImage {
+    position: relative;
+    display: block;
+    height: 5em;
+    overflow: hidden;
+    align-content: center;
+    }
+.smGalImage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    }
+
+/* -------------------------------------------------Gallery Page */
+/* Gallery Module */
+#phGalWrapper {
+    float: left;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.parent-container {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(45, 71, 89, 1.0);
+}
+.phCont {
+    width: 46%;
+    float: left;
+    padding: 2%;
+    text-align: center;
+}
+.phCont img {
+    width: 100%;
+}
+#phGalWrapper .phCont span {
+    display: none;
+    color: rgba(45, 71, 89, 1.0);
+    font-weight: 700;
+    position: absolute;
+
+    font-size: 69px;
+
+    opacity: 0;
+    cursor: pointer;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+#phGalWrapper .phCont:hover span, #phGalWrapper .phCont span:hover {
+    opacity: 1;
+}
+#phGalWrapper .phCont:hover {
+
+}
+#phGalWrapper .phCont:hover img {
+    opacity: 0.5;
+}
+/* -------------------------------------------------Info Page */
+#infoModules .sub:before {
+    margin-left: 5px;
+    content: " - ";
+    }
+#infoModules .sub {
+    margin-top: -10px;
+    font-size: 90%;
+}
+
+/* -------------------------------------------------Contact Page */
+/* Meet the Owner Module */
+#meetTheOwnerModule {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 90%;
+}
+#ownerPhoto {
+    display: block;
+    clear: both;
+    position: relative;
+    width: 16em;
+    height: 12em;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 2%;
+    -o-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    border-radius: 2%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.ownerPhotoCont {
+    height: 100%;
+    -webkit-border-radius: 2%;
+    -o-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    border-radius: 2%;
+}
+#ownerPhoto img {
+    position: relative;
+    height: 100%;
+    -webkit-border-radius: 2%;
+    -o-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    border-radius: 2%;
+    margin-left: -10px;
+}
+#ownerWriteUp {
+    width: 96%;
+    padding: 2% 2%;
+}
+#meetTheOwnerModule p {
+    float: left;
+    width: 90%;
+    padding: 1% 5%;
+}
+
+/* Contact Form Module */
+#contactFormModule {
+    display: block;
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+    padding-bottom: 35px;
+}
+.contactForm {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactForm .formRow {
+    float: left;
+    width: 100%;
+    margin: 2px 0;
+}
+.contactForm label {
+    display: block;
+    float: left;
+    line-height: 2em;
+    width: 38%;
+    text-align: right;
+    padding-right: 2%;
+}
+.contactForm .formInput {
+    display: block;
+    position: relative;
+    float: left;
+    border: none;
+    border-bottom: 1px solid rgba(44, 91, 128, 0.2);
+    background-color: rgba(250, 250, 250, 0.7);
+    line-height: 1.5em;
+    width: 55%;
+    bottom: 22px;
+    padding-left:2%;
+}
+.contactForm textarea {
+    display: block;
+    position: relative;
+    float: left;
+    border: none;
+    border-bottom: 1px solid rgba(44, 91, 128, 0.2);
+    background-color: rgba(250, 250, 250, 0.7);
+    line-height: 1.5em;
+    width: 55%;
+    bottom: 14px;
+    padding-left:2%;
+    resize: none;
+}
+.formButton {
+    display: block;
+    position: relative;
+    float: left;
+    border: none;
+    border: 2px solid rgba(44, 91, 128, 0.6);
+    background-color: rgba(250, 250, 250, 0.7);
+    bottom: 10px;
+    font-size: .8em;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 15px 0;
+    width: 8em;
+    height: 3em;
+}
+.formButton:hover {
+    background-color: rgba(108, 171, 217, 0.3);
+}
+.formButton:active {
+    background-color: rgba(108, 171, 217, 0.7);
+}
+.spam_prevention {
+    display: none;
+} /*SPAM PREVENTION*/
+.sent {
+    width: 100%;
+    display: block;
+    position: relative;
+    height: auto;
+}
+.sentWrap {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 105;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(25, 25, 25, 0.95);
+    color: white;
+}
+.sentIntCont {
+    display: block;
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.sent .emailSent {
+    white-space: none;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+.emailp {
+    font-size: 80%;
+    padding-top: 10px;
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+/*----------------------------------- Media Query Page Break @---------------------------------------------------------- */
+
+@media all and (min-width: 680px) {
+/* -------------------------------------------------Top Level Styles */
+
+h1 {
+    text-align: left;
+    margin-left: 100px
+}
+.mainLinks {
+    margin: 0 0 8px 0px;
+}
+h2 {
+    padding-left: 20px;
+}
+
+    /* Nav Bar */
+.navWrapper {
+
+}
+.buttonWrapper {
+
+    }
+.open{
+    border-right: 1px solid rgba(44, 91, 128, 0.1);
+}
+.open .equals {
+
+}
+.open:hover {
+
+}
+.menuWrapper {
+
+    }
+.menuWrapperShow {
+    width: 90%;
+    float: left;
+    z-index: 101;
+    padding-left: 50px;
+    margin-top: -50px;
+    }
+#menu {
+    width: 100%;
+    border: none;
+    z-index: 102;
+    font-weight: 300;
+    }
+#menu ul {
+    width: auto;
+    }
+#menu ul li {
+    display: block;
+    width: 15%;
+    height: 50px;
+    position: relative;
+    }
+#menu ul li:hover {
+
+    }
+#menu ul li a {
+    z-index: 1000;
+    border: none;
+    }
+#menu ul li a:before {
+    content: "";
+    position: absolute;
+    bottom: 10px; top: 10px; left: 0; right: 0;
+    border-right: 1px solid rgba(44, 91, 128, 0.1);
+}
+#menu ul li:hover a:before {
+    content: "";
+    position: absolute;
+    border: none;
+    bottom: 8px; top: 8px; left: 0; right: 0;
+    border-right: 1px solid rgba(44, 91, 128, 0.3);
+}
+#menu ul li:hover a:after {
+    content: "";
+    position: absolute;
+    bottom: 10px; top: 10px; left: 40px; right: 40px;
+    border-bottom: 2px solid rgba(242, 170, 70, 0.4);
+}
+#menu ul li ul {
+    width: 150%;
+    right: -20px;
+    }
+#menu ul li:hover ul li a:after {
+    border: none;
+    }
+#menu ul li ul li:hover a:after {
+    content: "";
+    position: absolute;
+    bottom: 10px; top: 10px; left: 40px; right: 40px;
+    border-bottom: 2px solid rgba(242, 170, 70, 0.4);
+    }
+#menu ul li:hover li a:before {
+    border:none;
+}
+#menu ul li ul li a:after {
+    border: none;
+}
+#menu ul li ul li a:hover:after {
+
+}
+#menu ul li ul.fallback {
+
+}
+#menu ul li:hover ul.fallback {
+
+    }
+
+    /* Main */
+.headerSection {
+    padding-top: 5px;
+    display: block;
+    width: 100%;
+    float: left;
+}
+.headerSection p {
+    width: 80%;
+}
+.underHeadingContainer {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.mainBlockLeft {
+    position: relative;
+    float: left;
+    display: block;
+    width: 40%;
+    padding: 0 5%;
+}
+.mainBlockRight {
+    float: left;
+    width: 40%;
+    padding: 0 5%;
+}
+.mainBlockLeftPYS {
+    position: relative;
+    float: left;
+    display: block;
+    width: 52%;
+    padding-left: 4%;
+    }
+.mainBlockRightPYS {
+    float: left;
+    width: 34%;
+    padding: 0 3%;
+}
+
+.shortBottomBlock {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.smGalleryModule {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+.interiorContainer {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 2% 0;
+}
+.imgContainer {
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 275px;
+    -webkit-border-radius: 5%;
+    -o-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    border-radius: 5%;
+}
+.imgContainer img {
+    position:absolute;
+    padding: 0 2%;
+    width: 96%;
+    -webkit-border-radius: 5%;
+    -o-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    border-radius: 5%;
+}
+    /* 2ndary Nav */
+.navHoursWrap {
+    float: left;
+    display: block;
+    height: 150px;
+    width: 100%;
+}
+#secondaryNavModule {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1.0);
+    }
+.secondaryNav {
+    display: inline-block;
+    width: 95%;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    }
+.secondaryNav td {
+    display: table-cell;
+}
+.secondaryNav .smallLink a {
+        color: #295E69;
+}
+.secondaryNavTable {
+    margin-top: 26px;
+}
+.secondaryNavTable th {
+    line-height: 1em;
+    box-shadow: none;
+}
+.secondaryNav th a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgba(71, 82, 89, 1.0);
+    background-color: rgba(255, 255, 255, 1.0);
+}
+.secondaryNav th:hover a {
+    color: #B56723;
+}
+.secondaryNavTable th:hover a {
+    color: #B56723;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+.secondaryNav td {
+    line-height: 0.9em;
+}
+
+    /* Footer Hours Table */
+#footerHoursTableModule {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    color: rgba(71, 82, 89, 1.0);
+    background-color: rgba(255, 255, 255, 1.0);
+    }
+#footerHoursTable {
+    margin-top: 24px;
+    width: 95%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+.footerHoursHeaderRow {
+    margin-bottom: 8px;
+    }
+.footerHoursHeaderRow:after {
+
+}
+.footerHoursTableRow td{
+  font-size: 100%;
+}
+.footerHoursTableRow:hover {
+
+}
+
+    /* Footer Contact */
+#footerContactModule {
+
+    }
+
+/* CopyRight Module*/
+#copyRightModule {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    color: #295E69;
+    padding: 1% 0;
+
+    }
+.copyRight{
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50%;
+    }
+
+/* -------------------------------------------------Page Specific Modules */
+
+/* -------------------------------------------------Home Page */
+.homeLink {
+    margin-top: -30px;
+    -webkit-border-radius: 0%;
+    -o-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+}
+.homeLinkImage {
+    -webkit-border-radius: 0%;
+    -o-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+    height: 9em;
+}
+.homeLink a {
+    -webkit-border-radius: 0%;
+    -o-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+    font-size: 1.2em;
+}
+.homeLink a:hover {
+    font-size:126%;
+    -webkit-border-radius: 0%;
+    -o-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+}
+.homeLinkImage1 {
+    display: table;
+    text-align: center;
+    height: 6em;
+    width: 100%;
+    background-image: url("../_thumbs/TCK_09.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 0%;
+    -o-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+}
+.homeLinkImage2 {
+    display: table;
+    text-align: center;
+    height: 6em;
+    width: 100%;
+    background-image: url("../_thumbs/TCK_12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 0%;
+    -o-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+}
+.homeLinkImage3 {
+    display: table;
+    text-align: center;
+    height: 6em;
+    width: 100%;
+    background-image: url("../_thumbs/TCK_19.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 0%;
+    -o-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+}
+.homeLinkImage1 a, .homeLinkImage2 a, .homeLinkImage3 a  {
+    display: table-cell;
+    color: white;
+    font-size: 1em;
+    line-height: 1em;
+    vertical-align: middle;
+    height: 100%;
+    -webkit-border-radius: 0%;
+    -o-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+}
+    /* Hero Image */
+.heroImage {
+    height: 450px;
+    }
+.heroImage img {
+
+    }
+.homeWriteUp {
+    width: 100%;
+    float: left;
+}
+.homeWriteUp h1 {
+    margin-top: -25px;
+    }
+.homeWriteUp h2 {
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.homeWriteUp p {
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+/* -------------------------------------------------Info Page */
+#infoHeroBlock {
+    padding-top: 0;
+    margin-top: -40px;
+}
+#infoHeroBlock .imgContainer {
+    height: 400px;
+}
+#infoModules {
+    float: left;
+    width: 100%;
+    }
+#pricingModule, #planYourStayModule, #hoursDirectionsModule, #faqsSmModule {
+    display: block;
+    float: left;
+    height: 10em;
+    width: 42%;
+    padding: 15px 4% 30px 4%;
+    font-weight: 400;
+}
+#infoModules p {
+    width: 100%;
+    float: left;
+    }
+
+#dbDescription {
+    margin-top:35px;
+    }
+
+.faqsModule p {
+    width: 95%;
+    }
+
+#hdIT {
+        margin-top: 15px;
+        margin-bottom: 30px;
+}
+
+#pricingTableModule tr {
+    line-height: 1.8em;
+}
+
+#dontForgetModule {
+    padding-top: 30px;
+    }
+#leaveHomeModule {
+
+    }
+/* -------------------------------------------------Gallery Page */
+.headerSection h1 {
+
+}
+#phGalWrapper .phCont img {
+    border:1px solid rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 1%;
+    -o-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    border-radius: 1%;
+}
+#phGalWrapper .phCont span {
+    margin-top: -16%;
+}
+/* Contact Form Module */
+#contactFormModule {
+
+}
+.contactForm {
+    margin-left: -5%;
+}
+.contactForm .formRow {
+
+}
+.contactForm label {
+    font-size: 1em;
+    line-height: 4em;
+}
+.contactForm .formInput {
+    font-size: .9em;
+    line-height: 4em;
+}
+.contactForm textarea {
+    font-size: .9em;
+    height: 4em;
+    padding: 10px;
+}
+.contactForm .formButton {
+    width: 70%;
+    font-size: 1.2em;
+}
+.sent {
+
+}
+.sentWrap {
+    margin-bottom: 20px;
+}
+.sent .emailSent {
+    font-size: 3em;
+}
+.emailp {
+    font-size: 1.5em;
+}
+
+/* Meet the Owner Module */
+#meetTheOwnerModule {
+
+}
+#ownerPhoto {
+    float: right;
+    width: 40%;
+    height: 15em;
+    margin-right: 50px;
+    -webkit-border-radius: 10%;
+    -o-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    border-radius: 10%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.ownerPhotoCont {
+    height: 100%;
+    -webkit-border-radius: 10%;
+    -o-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    border-radius: 10%;
+}
+#ownerPhoto img {
+    position: relative;
+    height: 100%;
+    -webkit-border-radius: 10%;
+    -o-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    border-radius: 10%;
+    margin-left: -5px;
+}
+#ownerWriteUp {
+    width: 50%;
+    padding: 0%;
+}
+#ownerWriteUp p {
+    padding-left: 12%;
+    }
+
+
+/* Sm Gallery Module */
+.smGalImage {
+    height: 8em;
+    }
+
+/*----------------------------------- Media Query Page Break @---------------------------------------------------------- */
+
+@media all and (min-width: 900px) {
+.secondaryNav {
+
+}
+.secondaryNavTable td {
+    font-size: 120%;
+}
+#menu ul li ul {
+    right: -40px;
+    }
+#phGalWrapper .phCont span {
+    margin-top: -15%;
+}
+.homeLinkImage a {
+    font-size: 1.4em;
+}
+#infoHeroBlock .imgContainer {
+    height: 450px;
+}
+.heroImage {
+}
+.smGalImage {
+    height: 14em;
+    }
+}
+}
