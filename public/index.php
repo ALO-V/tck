@@ -16,7 +16,7 @@
 <![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta charset="utf-8" />
-<meta name="metiis.advert" content="Turkey_Creek_Boarding_Kennels"/>
+<meta content="Turkey_Creek_Boarding_Kennels"/>
 <title>Turkey Creek Boarding Kennels</title>
 
 <!-- Fonts____________________________________-->
@@ -42,7 +42,7 @@
 <main class="mainNoPad" role="main">
   <section class="headerSection">
     <div class="heroImage">
-      <img src="_Images/TCK_03" alt="testPhoto"></div>
+     </div>
   </section>
   <div class="underHeadingContainer">
     <article class="interiorContainer">
