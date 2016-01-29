@@ -42,7 +42,7 @@
 <main class="mainNoPad" role="main">
   <section class="headerSection">
     <div class="heroImage">
-     </div>
+      <img src="_Images/TCK_03" alt="testPhoto"></div>
   </section>
   <div class="underHeadingContainer">
     <article class="interiorContainer">
