@@ -29,7 +29,7 @@
 <main class="mainNoPad" role="main">
   <section class="headerSection">
     <div class="heroImage">
-      <img src="../_Images/TCK_03" alt="testPhoto"></div>
+      <img src="../_Images/TCK_03" alt="testPhoto" display="block"></div>
   </section>
   <div class="underHeadingContainer">
     <article class="interiorContainer">
