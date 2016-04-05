@@ -70,12 +70,6 @@
         To lessen the work on your end, we have laid out any and all items your doggie pal will need on our Plan Your Stay page!
         </p>
         </div>
-          <div id="pricingModule">
-        <h1 class="mainLinks"><a href="../Information/pricing.php">Pricing</a></h1>
-        <p>
-        Our Pricing page outlines the best pricing options for you along with additional options for all you regular travelers out there. There are even discounts for multiple dogs too. Everything you need and more under one woof!
-        </p>
-        </div>
         </section>
       </article>
   </div>

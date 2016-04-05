@@ -15,7 +15,6 @@ echo '
         <li><a class="menuLink" href="Information/index.php">Information</a>
                     <ul class="fallback">
               <li><a class="menuLink" href="Information/planyourstay.php">Plan Your Stay</a></li>
-              <li><a class="menuLink" href="Information/pricing.php">Pricing</a></li>
               <li><a class="menuLink" href="Information/faqs.php">FAQs</a></li>
               <li><a class="menuLink" href="Information/hoursdirections.php">Hours &amp; Directions</a></li>
               </ul></li></div>

@@ -11,7 +11,6 @@ echo '
            </tr>
            <tr>
             <td><a href="Information/planyourstay.php">Plan Your Stay</a></td>
-            <td><a href="Information/pricing.php">Pricing</a></td>
             <td><a href="Information/hoursdirections.php">Hours &amp; Directions</a></td>
             </tr>
             <tr>

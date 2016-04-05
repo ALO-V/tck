@@ -55,7 +55,6 @@
         <li><a class="menuLink" href="../Information/index.html">Information</a>
                     <ul class="fallback">
               <li><a class="menuLink" href="../Information/planYourStay.html">Plan Your Stay</a></li>
-              <li><a class="menuLink" href="../Information/pricing.html">Pricing</a></li>
               <li><a class="menuLink" href="../Information/faqs.html">F.A.Q.'s</a></li>
               <li><a class="menuLink" href="../Information/hoursDirections.html">Hours &amp; Directions</a></li>
               </ul></li></div>
