@@ -11,13 +11,12 @@ echo '
            </tr>
            <tr>
             <td><a href="../Information/planyourstay.php">Plan Your Stay</a></td>
-            <td><a href="../Information/pricing.php">Pricing</a></td>
             <td><a href="../Information/hoursdirections.php">Hours &amp; Directions</a></td>
+            <td><a href="../AboutUs/index.php">About Us</a></td>
             </tr>
             <tr>
             <td><a href="../Information/faqs.php">FAQs</a></td>
             <td><a href="../Gallery/index.php">Gallery</a></td>
-            <td><a href="../AboutUs/index.php">About Us</a></td>
             </tr>
             </table>
     </nav>
