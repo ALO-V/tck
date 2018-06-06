@@ -24,21 +24,24 @@ echo '
   <section id="footerHoursTableModule">
     <table id="footerHoursTable">
         <thead class="footerHoursHeaderRow">
-        <th class="homeHeaderText" colspan="2">Our Hours</th><span class="longLine"></span>
-        </thead>
-        <tbody>
-        <tr class="footerHoursTableRow">
-        <td class="homeDay"><strong>Monday - Friday</strong></td>
-        <td class="homeTime">8am - 6pm</td>
-        </tr>
-        <tr class="footerHoursTableRow">
-        <td class="homeDay"><strong>Saturday</strong></td>
-        <td class="homeTime">8am - Noon</td>
-        </tr>
-        <tr id="sunday" class="footerHoursTableRow">
-        <td class="homeDay"><strong>Sunday</strong></td>
-        <td class="homeTime">By Apointment</td>
-        </tr>
+           <tbody>
+            <td class="homeTime">By Apointment Only</td>
+           </tbody>
+//         <th class="homeHeaderText" colspan="2">Our Hours</th><span class="longLine"></span>
+//         </thead>
+//         <tbody>
+//         <tr class="footerHoursTableRow">
+//         <td class="homeDay"><strong>Monday - Friday</strong></td>
+//         <td class="homeTime">8am - 6pm</td>
+//         </tr>
+//         <tr class="footerHoursTableRow">
+//         <td class="homeDay"><strong>Saturday</strong></td>
+//         <td class="homeTime">8am - Noon</td>
+//         </tr>
+//         <tr id="sunday" class="footerHoursTableRow">
+//         <td class="homeDay"><strong>Sunday</strong></td>
+//         <td class="homeTime">By Apointment</td>
+//         </tr>
         </tbody>
     </table>
   </section></div>
