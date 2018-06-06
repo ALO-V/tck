@@ -66,25 +66,10 @@
   </div>
                 <div class="interiorContainer">
 <section id="pricingTableModule">
-<h2 id="pricingTable">Pricing</h2>
+  <h2 id="pricingTable">Book with us!</h2>
     <table>
     <tr>
-    <td>1 Dog per kennel</td>
-    <td>-</td>
-    <td>$15/day</td>
-    </tr>
-    <tr>
-    <td>2 Dogs per kennel</td>
-    <td>-</td>
-    <td>$25/day</td>
-    </tr>
-    <tr>
-    <td>3 Dogs per kennel</td>
-    <td>-</td>
-    <td>$35/day</td>
-    </tr>
-    <tr>
-    <td>Up charge if pick up is past noon.</td>
+      <td>Call today to ask about our low prices. 515-344-4286</td>
     </tr>
     </table>
 </section>
