@@ -55,22 +55,8 @@
         <article class="hoursdirectionsModule">
         <section id="hdIT" class="interiorContainer">
         <table id="hoursTable">
-<!--         <thead class="hoursHeaderRow">
-        <th colspan="2">Our Hours</th>
-        </thead> -->
         <tbody>
-<!--         <tr class="homeTableRow">
-        <td class="homeDay"><strong>Monday - Friday</strong></td>
-        <td class="homeTime">8am - 6pm</td>
-        </tr>
-        <tr class="homeTableRow">
-        <td class="homeDay"><strong>Saturday</strong></td>
-        <td class="homeTime">8am - Noon</td>
-        </tr>
-        <tr>
-        <td class="homeDay"><strong>Sunday</strong></td> -->
-        <td id="sunday" class="homeTime">By Appointment Only</td>
-<!--         </tr> -->
+          <td id="sunday" class="homeTime">By Appointment Only</td>
         </tbody>
         </table>
         </section>
