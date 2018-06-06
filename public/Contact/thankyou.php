@@ -86,16 +86,11 @@
         <section class="interiorContainer">
         <table id="hoursTable">
         <thead class="hoursHeaderRow">
-        <th class="homeHeaderText" colspan="2">Our Hours</th>
+          <th class="homeHeaderText" colspan="2">Book today! <span style="font-size:10px;">515-344-4286<span></th>
         </thead>
         <tbody>
-        <tr class="homeTableRow">
-        <td class="homeDay"><strong>Monday - Friday</strong></td>
-        <td class="homeTime">9am - 6pm</td>
-        </tr>
         <tr>
-        <td class="homeDay"><strong>Sunday</strong></td>
-        <td id="sunday" class="homeTime">Pick-ups by Apointment</td>
+          <td class="homeTime">Pick-ups and Drop-offs by Apointment Only</td>
         </tr>
         </tbody>
         </table>
@@ -104,11 +99,6 @@
     </div>
     <div class="mainBlockRight">
       <aside class="interiorContainer">
-        <section class="pickupTimeModule">
-        <h2>Pick Up &amp; Drop Off Times</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
       </aside>
     </div>
     <div class="shortBottomBlock">
@@ -143,21 +133,16 @@
     </nav>
   </section>
   <section id="footerHoursTableModule">
-    <table id="footerHoursTable">
-        <thead class="footerHoursHeaderRow">
-        <th class="homeHeaderText" colspan="2">Our Hours</th><span class="longLine"></span>
+    <table id="hoursTable">
+        <thead class="hoursHeaderRow">
+          <th class="homeHeaderText" colspan="2">Book today! <span style="font-size:10px;">515-344-4286<span></th>
         </thead>
         <tbody>
-        <tr class="footerHoursTableRow">
-        <td class="homeDay"><strong>Monday - Saturday</strong></td>
-        <td class="homeTime">9am - 6pm</td>
-        </tr>
-        <tr id="sunday" class="footerHoursTableRow">
-        <td class="homeDay"><strong>Sunday</strong></td>
-        <td class="homeTime">Pick-ups by Apointment</td>
+        <tr>
+          <td class="homeTime">Pick-ups and Drop-offs by Apointment Only</td>
         </tr>
         </tbody>
-    </table>
+        </table>
   </section></div>
   <section id="footerContactModule">
       <div class="footerContactInfo">
