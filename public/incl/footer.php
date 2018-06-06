@@ -24,7 +24,7 @@ echo '
   <section id="footerHoursTableModule">
    <table id="hoursTable">
         <thead class="hoursHeaderRow">
-          <th class="homeHeaderText" colspan="2">Book today! <span style="font-size:10px;">515-344-4286<span></th>
+          <th class="homeHeaderText" colspan="2" style="border-top: none;">Book today! <span style="font-size:1em;">515-344-4286<span></th>
         </thead>
         <tbody>
         <tr>
