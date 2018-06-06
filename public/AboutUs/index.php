@@ -71,20 +71,11 @@
         <section class="interiorContainer">
         <table id="hoursTable">
         <thead class="hoursHeaderRow">
-        <th class="homeHeaderText" colspan="2">Our Hours</th>
+          <th class="homeHeaderText" colspan="2" style="border-top: none;">Book today! <span style="font-size:.8em;"><i>515-344-4286</i><span></th>
         </thead>
         <tbody>
-        <tr class="homeTableRow">
-        <td class="homeDay"><strong>Monday - Friday</strong></td>
-        <td class="homeTime">8am - 6pm</td>
-        </tr>
-        <tr class="homeTableRow">
-        <td class="homeDay"><strong>Saturday</strong></td>
-        <td class="homeTime">8am - Noon</td>
-        </tr>
         <tr>
-        <td class="homeDay"><strong>Sunday</strong></td>
-        <td id="sunday" class="homeTime">By Apointment</td>
+          <td class="homeTime">Pick-ups and Drop-offs by Apointment Only</td>
         </tr>
         </tbody>
         </table>
