@@ -162,16 +162,11 @@ if(isset($_POST['submit'])) {
         <section class="interiorContainer">
         <table id="hoursTable">
         <thead class="hoursHeaderRow">
-        <th class="homeHeaderText" colspan="2">Our Hours</th>
+          <th class="homeHeaderText" colspan="2">Please Call For Our Hours. 515-344-4286</th>
         </thead>
         <tbody>
-        <tr class="homeTableRow">
-        <td class="homeDay"><strong>Monday - Friday</strong></td>
-        <td class="homeTime">9am - 6pm</td>
-        </tr>
         <tr>
-        <td class="homeDay"><strong>Sunday</strong></td>
-        <td id="sunday" class="homeTime">Pick-ups by Apointment</td>
+          <td class="homeTime">Pick-ups and Drop-offs by Apointment Only</td>
         </tr>
         </tbody>
         </table>
@@ -180,11 +175,7 @@ if(isset($_POST['submit'])) {
     </div>
     <div class="mainBlockRight">
       <aside class="interiorContainer">
-        <section class="pickupTimeModule">
-        <h2>Pick Up &amp; Drop Off Times</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
+        
       </aside>
     </div>
     <div class="shortBottomBlock">
