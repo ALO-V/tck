@@ -175,16 +175,11 @@ if(isset($_POST['submit'])) {
         <section class="interiorContainer">
         <table id="hoursTable">
         <thead class="hoursHeaderRow">
-        <th class="homeHeaderText" colspan="2">Our Hours</th>
+          <th class="homeHeaderText" colspan="2">Book today! <span style="font-size:10px;">515-344-4286<span></th>
         </thead>
         <tbody>
-        <tr class="homeTableRow">
-        <td class="homeDay"><strong>Monday - Friday</strong></td>
-        <td class="homeTime">9am - 6pm</td>
-        </tr>
         <tr>
-        <td class="homeDay"><strong>Sunday</strong></td>
-        <td id="sunday" class="homeTime">Pick-ups by Apointment</td>
+          <td class="homeTime">Pick-ups and Drop-offs by Apointment Only</td>
         </tr>
         </tbody>
         </table>
@@ -193,11 +188,7 @@ if(isset($_POST['submit'])) {
     </div>
     <div class="mainBlockRight">
       <aside class="interiorContainer">
-        <section class="pickupTimeModule">
-        <h2>Pickup &amp; Drop Off Times</h2>
-        <p>We ask our customers to pick up their dogs at a reasonable hour the following day, in order to prep the kennels for the new arrivals.</p>
-        <p>&#42; This comes with flexibility, however customers are subject to an up-charge for a late pickup.</p>
-        </section>
+        
       </aside>
     </div>
     <div class="shortBottomBlock">
