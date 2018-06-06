@@ -175,7 +175,7 @@ if(isset($_POST['submit'])) {
         <section class="interiorContainer">
         <table id="hoursTable">
         <thead class="hoursHeaderRow">
-          <th class="homeHeaderText" colspan="2" style="border-top: none;">Book today! <span style="font-size:1em;">515-344-4286<span></th>
+          <th class="homeHeaderText" colspan="2" style="border-top: none;">Book today! <span style="font-size:.8em;"><i>515-344-4286</i><span></th>
         </thead>
         <tbody>
         <tr>
