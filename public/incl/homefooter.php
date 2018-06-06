@@ -22,11 +22,16 @@ echo '
     </nav>
   </section>
   <section id="footerHoursTableModule">
-    <table id="footerHoursTable">
+    <table id="hoursTable">
+        <thead class="hoursHeaderRow">
+          <th class="homeHeaderText" colspan="2">Please Call For Our Hours. 515-344-4286</th>
+        </thead>
         <tbody>
-          <td class="homeTime">By Apointment Only</td>
+        <tr>
+          <td class="homeTime">Pick-ups and Drop-offs by Apointment Only</td>
+        </tr>
         </tbody>
-    </table>
+        </table>
   </section></div>
 
 
