@@ -55,8 +55,13 @@
         <article class="hoursdirectionsModule">
         <section id="hdIT" class="interiorContainer">
         <table id="hoursTable">
+        <thead class="hoursHeaderRow">
+          <th class="homeHeaderText" colspan="2">Book today! <span style="font-size:10px;">515-344-4286<span></th>
+        </thead>
         <tbody>
-          <td id="sunday" class="homeTime">By Appointment Only</td>
+        <tr>
+          <td class="homeTime">Pick-ups and Drop-offs by Apointment Only</td>
+        </tr>
         </tbody>
         </table>
         </section>
